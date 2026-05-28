@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LingoStash Support</title>
+  <meta name="description" content="Support and contact information for LingoStash.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7fbff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #0878e7;
+      --panel: #ffffff;
+      --border: #dbeafe;
+      --soft: #eff6ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(820px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
+      padding: clamp(28px, 5vw, 56px);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      color: #071b4f;
+      font-size: clamp(36px, 7vw, 60px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      color: #071b4f;
+      font-size: 24px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      margin: 0 0 18px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 650;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.16em;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      border-radius: 10px;
+      background: #e0f2fe;
+      color: var(--accent);
+      font-size: 21px;
+      font-weight: 800;
+    }
+
+    .intro {
+      color: var(--muted);
+      font-size: 19px;
+    }
+
+    .contact {
+      margin: 26px 0 0;
+      padding: 22px;
+      border-radius: 14px;
+      background: var(--soft);
+      color: #1e3a8a;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 24px, 820px);
+        padding: 24px 0;
+      }
+
+      article {
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="brand">
+        <span class="brand-mark">Abc</span>
+        <span>LingoStash</span>
+      </div>
+
+      <h1>Support</h1>
+      <p class="intro">Need help with LingoStash? Send a note and we will do our best to help.</p>
+
+      <div class="contact">
+        <p><strong>Email support</strong></p>
+        <p><a href="mailto:gosatin+lingostash@gmail.com">gosatin+lingostash@gmail.com</a></p>
+        <p class="small">Please include your device model, iOS version, and a short description of what happened.</p>
+      </div>
+
+      <h2>Common Topics</h2>
+      <ul>
+        <li>Translation or dictionary results are unavailable</li>
+        <li>Saved words are not appearing in practice</li>
+        <li>Google or Apple sign-in is not working</li>
+        <li>Vocabulary is not syncing across devices</li>
+        <li>You want your synced account data deleted</li>
+      </ul>
+
+      <h2>Local Mode</h2>
+      <p>You can use LingoStash without signing in. In local mode, your saved vocabulary stays on your device and does not sync to the cloud unless you later sign in.</p>
+
+      <h2>Privacy</h2>
+      <p>Read the <a href="https://gosatin.github.io/lingostash-privacy/privacy/">LingoStash Privacy Policy</a> for details about data collection, sync, analytics, translation providers, and your choices.</p>
+    </article>
+  </main>
+</body>
+</html>
